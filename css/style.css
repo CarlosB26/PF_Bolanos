@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
 
 :root {
     --color-primary: #2d4059; /* Azul oscuro */
     --color-secondary: #ea5455; /* Rojo */
     --color-tertiary: #f7b801; /* Amarillo */
     --color-text: #1a1a1a; /* Negro */
-    --color-background: #f2f2f2; /* Gris claro */
+    --color-background: #000000; /* Gris claro */
+    --sidbar-width: 240px;
     --font-base: "Bai Jamjuree";
 }
 
@@ -15,6 +17,11 @@ body{
     font-family: var(--font-base), sans-serif;
 }
 
+#logo{
+    font-family: 'Comforter', cursive;
+    color: #960000;
+}
+
 h1,h2,h3,h4,h5,h6{
     color: var(--color-primary);
     font-weight: 700;
@@ -22,6 +29,7 @@ h1,h2,h3,h4,h5,h6{
 
 a{
     text-decoration: none;
+    transition: all 0.4s ease;
 }
 
 a:hover{
@@ -31,3 +39,17 @@ a:hover{
 img{
     width:100%;
 }
+
+/*NAVBAR*/
+
+@media (min-width: 992px){
+    .navbar{
+        min-height: 100vh;
+        width: var(--sidbar-width);
+        background:url(../multimedia/sidebar.jfif);
+        background-size:cover;
+        background-position: center;
+    }
+}
+
+/*//NAVBAR*/
