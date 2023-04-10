@@ -1,0 +1,41 @@
+[33mcommit d1a5657956f7170282d2dbd2b1303b82acff3367[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Carlos Bolaños <cabscarlos26@hotmail.com>
+Date:   Mon Apr 10 15:14:05 2023 -0500
+
+    el sidevar esta por medio camino, ya casi lo acabo
+
+[33mcommit 37a0164a7e361ea6e3062b1b9cce73daa4a53eeb[m
+Author: Carlos Bolaños <cabscarlos26@hotmail.com>
+Date:   Mon Apr 10 13:11:11 2023 -0500
+
+    solucionne identaciones
+
+[33mcommit a86687ae953b386c0aa6e4b39101f5f176dd9bd4[m
+Author: Carlos Bolaños <cabscarlos26@hotmail.com>
+Date:   Mon Apr 10 11:49:23 2023 -0500
+
+    agregue el navbar de bootstrap
+
+[33mcommit 7a877097e2499599a4eebbcb1426ffff2f01f51e[m
+Author: Carlos Bolaños <cabscarlos26@hotmail.com>
+Date:   Mon Apr 10 11:18:59 2023 -0500
+
+    agregue todos los assets via CDN
+
+[33mcommit 00d83e27e0a0647e5c3cdfcfbee939fcf18985c4[m
+Author: Carlos Bolaños <cabscarlos26@hotmail.com>
+Date:   Mon Apr 10 11:08:21 2023 -0500
+
+    agregue contenido al readme
+
+[33mcommit 2feb44b3009e9b4f5f46a91df9ecc6a199e094f6[m
+Author: Carlos Bolaños <cabscarlos26@hotmail.com>
+Date:   Mon Apr 10 11:03:44 2023 -0500
+
+    Inicie el proyecto
+
+[33mcommit 429c6cf647db9ba92442c78faaf0b317b42c55a4[m
+Author: Carlos Bolaños <cabscarlos26@hotmail.com>
+Date:   Mon Apr 10 11:00:23 2023 -0500
+
+    first commit

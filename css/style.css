@@ -42,6 +42,18 @@ img{
 
 /*NAVBAR*/
 
+.navbar .nav-link{
+    font-weight: 700px;
+    text-transform: uppercase;
+    color: white;
+    
+
+}
+
+.navbar .nav-link:hover{
+    color: #960000;
+
+}
 @media (min-width: 992px){
     .navbar{
         min-height: 100vh;
@@ -49,6 +61,17 @@ img{
         background:url(../multimedia/sidebar.jfif);
         background-size:cover;
         background-position: center;
+    }
+
+    #person{
+        height: 200px;
+        width: 150px;
+    }
+
+    .navbar-brand img{
+        border: 5px solid rgba(255, 0, 0, 0.2);
+        position: center;
+
     }
 }
 
