@@ -14,8 +14,8 @@
 body{
     color: var(--color-text);
     font-family: var(--font-base), sans-serif;
-    background:url(../multimedia/fondo.jpg);
-    background-size:cover;
+    background:url(../multimedia/fondo.png);
+    background-size: auto;
     
 }
 
@@ -57,6 +57,12 @@ img{
 
 }
 @media (min-width: 992px){
+    
+    body{
+        background:url(../multimedia/fondo.png);
+        background-size:auto;
+    }
+
     .navbar{
         min-height: 100vh;
         width: var(--sidbar-width);
