@@ -6,15 +6,17 @@
     --color-secondary: #ea5455; /* Rojo */
     --color-tertiary: #f7b801; /* Amarillo */
     --color-text: #1a1a1a; /* Negro */
-    --color-background: #000000; /* Gris claro */
+    --color-background: rgba(0,57,71,255); /* Gris claro */
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree";
 }
 
 body{
-    background-color: var(--color-background);
     color: var(--color-text);
     font-family: var(--font-base), sans-serif;
+    background:url(../multimedia/fondo.jpg);
+    background-size:cover;
+    
 }
 
 #logo{
@@ -23,7 +25,7 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6{
-    color: var(--color-primary);
+    color: white;
     font-weight: 700;
 }
 
@@ -58,9 +60,7 @@ img{
     .navbar{
         min-height: 100vh;
         width: var(--sidbar-width);
-        background:url(../multimedia/sidebar.jfif);
-        background-size:cover;
-        background-position: center;
+
     }
 
     #person{
