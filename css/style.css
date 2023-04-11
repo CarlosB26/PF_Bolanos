@@ -7,7 +7,7 @@
     --color-tertiary: #f7b801; /* Amarillo */
     --color-text: #1a1a1a; /* Negro */
     --color-background: rgba(0,57,71,255); /* Gris claro */
-    --sidbar-width: 240px;
+    --sidbar-width: 300px;
     --font-base: "Bai Jamjuree", bond;
 }
 
@@ -28,6 +28,21 @@ body{
 
 }
 
+
+
+/* CONTENTINDEX */
+
+#contentindex{
+    padding-left: 50px;
+}
+
+.text-brand{
+    color: rgba(255, 0, 0, 0.5);
+
+}
+
+/* //CONTENTINDEX*/
+
 /*NAVBAR*/
 
 #logo{
@@ -35,7 +50,7 @@ body{
     color: #960000;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6, p{
     color: white;
     font-weight: 700;
 }
@@ -70,9 +85,11 @@ img{
     color: #960000;
 
 }
+
 @media (min-width: 992px){
     
     body{
+        overflow-x: hidden;
         background:url(../multimedia/fondo.png);
         background-size:auto;
     }
@@ -86,11 +103,11 @@ img{
 
     #person{
         height: 250px;
-        width: 180px;
+        width: 200px;
     }
 
     .navbar-brand img{
-        border: 5px solid rgba(255, 0, 0, 0.2);
+        border: 5px solid rgba(255, 0, 0, 0.1);
         position: center;
 
     }
@@ -98,9 +115,7 @@ img{
     /* CONTENTINDEX */
 
     #contentindex{
-        padding-left: 300px;
-
-
+        padding-left: 350px;
     }
 
     /* //CONTENTINDEX*/
