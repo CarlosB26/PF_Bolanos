@@ -28,8 +28,6 @@ body{
 
 }
 
-
-
 /* CONTENTINDEX */
 
 #contentindex{
@@ -58,6 +56,26 @@ body{
     border-color: rgba(255, 0, 0, 0.3) ;
 }
 
+.link-custom{
+    font-weight: 700;
+    position: relative;
+    color: #ffffff;
+}
+
+.link-custom::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: rgba(255, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    top: 110%;
+    transition: all 0.5s;
+}
+
+.link-custom:hover::after{
+    width: 100%;
+}
 
 
 /* //CONTENTINDEX*/
