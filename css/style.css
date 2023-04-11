@@ -5,7 +5,7 @@
     --color-primary: #2d4059; /* Azul oscuro */
     --color-secondary: #ea5455; /* Rojo */
     --color-tertiary: #f7b801; /* Amarillo */
-    --color-text: #1a1a1a; /* Negro */
+    --color-text: #ffffff; /* Negro */
     --color-background: rgba(0,57,71,255); /* Gris claro */
     --sidbar-width: 300px;
     --font-base: "Bai Jamjuree", bond;
@@ -33,7 +33,7 @@ body{
 /* CONTENTINDEX */
 
 #contentindex{
-    padding-left: 50px;
+    padding-left: 30px;
 }
 
 .text-brand{
@@ -41,13 +41,32 @@ body{
 
 }
 
+.btn {
+    padding: 12px 28px;
+    font-weight: 700;
+    color: var(--color-text);
+}
+
+.btn-brand{
+    background-color: rgba(255, 0, 0, 0.4);
+    border-color: rgba(255, 0, 0, 0.3) ;
+}
+
+.btn-brand:hover,
+.btn-brand:focus{
+    background-color:rgba(255, 0, 0, 0.5);
+    border-color: rgba(255, 0, 0, 0.3) ;
+}
+
+
+
 /* //CONTENTINDEX*/
 
 /*NAVBAR*/
 
 #logo{
     font-family: 'Comforter', cursive;
-    color: #960000;
+    color: rgba(255, 0, 0, 0.7);
 }
 
 h1,h2,h3,h4,h5,h6, p{
@@ -57,11 +76,11 @@ h1,h2,h3,h4,h5,h6, p{
 
 a{
     text-decoration: none;
-    transition: all 0.4s ease;
+    transition: all 0.5s ease;
 }
 
 a:hover{
-    color: var(--color-secondary);
+    color: rgba(255, 0, 0, 0.5);
 }
 
 img{
@@ -82,7 +101,7 @@ img{
 }
 
 .navbar .nav-link:hover{
-    color: #960000;
+    color: rgba(255, 0, 0, 0.7);
 
 }
 
