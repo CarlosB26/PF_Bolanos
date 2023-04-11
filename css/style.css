@@ -25,8 +25,12 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom:#2d4059 2px;
 }
+
+
 
 /* CONTENTINDEX */
 
@@ -34,9 +38,9 @@ body{
     padding-left: 30px;
 }
 
+
 .text-brand{
     color: rgba(255, 0, 0, 0.5);
-
 }
 
 .btn {
@@ -66,7 +70,7 @@ body{
     content: "";
     width: 0%;
     height: 2px;
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(255, 0, 0, 0.3);
     position: absolute;
     left: 0;
     top: 110%;
@@ -75,10 +79,46 @@ body{
 
 .link-custom:hover::after{
     width: 100%;
+    color: #ffffff;
 }
 
+.blanco{
+    color: #ffffff;
+}
 
 /* //CONTENTINDEX*/
+
+/*CONTENTSERVICES*/
+#contentservices{
+    padding-left: 30px;
+}
+
+.bg-base {
+    background-color:rgba(7, 28, 68, 0.4);
+}
+
+.shadow-effect{
+    transition: all 0.5s;
+}
+
+.shadow-effect:hover{
+    box-shadow: -3px 3px 5px 0px rgba(255, 0, 0, 0.4);
+}
+
+.iconbox{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    background-color: rgba(255, 0, 0, 0.3);
+
+}
+/*CONTENTSERVICES*/
+
+
+
 
 /*NAVBAR*/
 
@@ -104,7 +144,6 @@ a:hover{
 img{
     width:100%;
 }
-
 
 
 .navbar .nav-link{
@@ -149,13 +188,18 @@ img{
 
     }
 
-    /* CONTENTINDEX */
+    /* CONTENT */
 
     #contentindex{
         padding-left: 350px;
     }
+    #contentservices{
+        padding-left: 350px;
+    }
+    /* //CONTENT*/
 
-    /* //CONTENTINDEX*/
 }
 
 /*//NAVBAR*/
+
+
