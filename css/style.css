@@ -8,7 +8,7 @@
     --color-text: #1a1a1a; /* Negro */
     --color-background: rgba(0,57,71,255); /* Gris claro */
     --sidbar-width: 240px;
-    --font-base: "Bai Jamjuree";
+    --font-base: "Bai Jamjuree", bond;
 }
 
 body{
@@ -18,6 +18,17 @@ body{
     background-size: auto;
     
 }
+
+.full-heigth{
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+/*NAVBAR*/
 
 #logo{
     font-family: 'Comforter', cursive;
@@ -42,13 +53,16 @@ img{
     width:100%;
 }
 
-/*NAVBAR*/
+
 
 .navbar .nav-link{
     font-weight: 700px;
     text-transform: uppercase;
     color: white;
-    
+}
+
+.navbar{
+    background: linear-gradient(rgba(7, 28, 68, 0.4),rgba(7, 28, 68, 0.4));
 
 }
 
@@ -80,6 +94,16 @@ img{
         position: center;
 
     }
+
+    /* CONTENTINDEX */
+
+    #contentindex{
+        padding-left: 300px;
+
+
+    }
+
+    /* //CONTENTINDEX*/
 }
 
 /*//NAVBAR*/
