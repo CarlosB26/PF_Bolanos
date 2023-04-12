@@ -15,7 +15,7 @@ body{
     color: var(--color-text);
     font-family: var(--font-base), sans-serif;
     background:url(../multimedia/fondo.png);
-    background-size: auto;
+    background-size: cover;
     
 }
 
@@ -125,6 +125,27 @@ body{
 
 /*CONTENTSERVICES*/
 
+/*CONTENTRABAJOS*/
+
+#contenttrabajos{
+    padding-left: 30px;
+  
+}
+
+.card-custom .card-custom-image{
+    overflow: hidden; 
+}
+
+.card-custom .card-custom-image img{
+    transition: all 0.4s ease;
+}
+
+.card-custom:hover .card-custom-image img{
+    transform: scale(1.1);
+}
+
+/*//CONTENTTRABAJOS*/
+
 
 
 
@@ -183,7 +204,7 @@ img{
     body{
         overflow-x: hidden;
         background:url(../multimedia/fondo.png);
-        background-size:auto;
+        background-size:cover;
     }
 
     .navbar{
@@ -209,9 +230,16 @@ img{
     #contentindex{
         padding-left: 350px;
     }
+
     #contentservices{
         padding-left: 350px;
     }
+
+    #contenttrabajos{
+        padding-left: 350px;
+    }
+ 
+    
     /* //CONTENT*/
 
 }
