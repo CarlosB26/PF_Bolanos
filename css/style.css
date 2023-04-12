@@ -136,6 +136,7 @@ body{
     overflow: hidden; 
 }
 
+
 .card-custom .card-custom-image img{
     transition: all 0.4s ease;
 }
@@ -182,8 +183,6 @@ body{
   }
 
 /*//CONTENTCONTACTO*/
-
-
 
 
 /*NAVBAR*/
@@ -234,7 +233,7 @@ img{
 
 }
 
-
+/*Media queries para pantalla grande*/
 
 @media (min-width: 992px){
     
