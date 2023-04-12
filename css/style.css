@@ -291,10 +291,10 @@ img{
 /*//NAVBAR*/
 
 /*FOOTER*/
-.footer {
-    position: absolute;
+footer {
+    position:relative;
+    left: 150px;
     bottom: 0;
-   
   }
 /*//FOOTER*/
 
