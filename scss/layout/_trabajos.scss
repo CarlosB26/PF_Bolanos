@@ -1,0 +1,21 @@
+/*CONTENTRABAJOS*/
+
+#contenttrabajos{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.card-custom {
+    .card-custom-image {
+        overflow: hidden;
+    }
+    .card-custom-image img{
+        transition: all 0.4s ease;
+    }
+    &:hover .card-custom-image img{
+        transform: scale(1.1);
+    }
+}
+
+
+/*//CONTENTTRABAJOS*/
