@@ -1,0 +1,149 @@
+/* CONTENTINDEX */
+
+#contentindex{
+    padding-left: 30px;
+}
+
+
+.text-brand{
+    color: rgba(255, 0, 0, 0.5);
+}
+
+.btn {
+    padding: 12px 28px;
+    font-weight: 700;
+    color: $color-text;
+}
+
+.btn-brand{
+    background-color: rgba(255, 0, 0, 0.4);
+    border-color: rgba(255, 0, 0, 0.3) ;
+}
+
+.btn-brand:hover,
+.btn-brand:focus{
+    background-color:rgba(255, 0, 0, 0.5);
+    border-color: rgba(255, 0, 0, 0.3) ;
+}
+
+.link-custom{
+    font-weight: 700;
+    position: relative;
+    color: #ffffff;
+}
+
+.link-custom::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: rgba(255, 0, 0, 0.3);
+    position: absolute;
+    left: 0;
+    top: 110%;
+    transition: all 0.5s;
+}
+
+.link-custom:hover::after{
+    width: 100%;
+    color: #ffffff;
+}
+
+.blanco{
+    color: #ffffff;
+}
+
+/* //CONTENTINDEX*/
+
+/*CONTENTSERVICES*/
+#contentservices{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.bg-base {
+    background-color:rgba(7, 28, 68, 0.4);
+}
+
+.shadow-effect{
+    transition: all 0.5s;
+}
+
+.shadow-effect:hover{
+    box-shadow: -5px 3px 5px 0px rgba(255, 0, 0, 0.4);
+}
+
+.iconbox{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    background-color: rgba(255, 0, 0, 0.3 );
+
+}
+
+.servicios{
+    padding-right: 50px;
+}
+
+/*CONTENTSERVICES*/
+
+/*CONTENTRABAJOS*/
+
+#contenttrabajos{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.card-custom .card-custom-image{
+    overflow: hidden;
+}
+
+
+.card-custom .card-custom-image img{
+    transition: all 0.4s ease;
+}
+
+.card-custom:hover .card-custom-image img{
+    transform: scale(1.1);
+}
+
+/*//CONTENTTRABAJOS*/
+
+/*CONTENTSOBREMI*/
+#contentsobremi{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.iconboxabout{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 24px;
+    background-color: rgba(255, 0, 0, 0.3 );
+
+}
+
+/*//CONTENTSOBREMI*/
+
+/*CONTENTCONTACTO*/
+#contentcontact{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#contentcontact .form-control{
+    background-color:rgba(7, 28, 68, 1);
+    border-color:rgba(7, 28, 68, 1);
+    color: $color-text;
+}
+
+#contentcontact .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.534);
+  }
+
+/*//CONTENTCONTACTO*/

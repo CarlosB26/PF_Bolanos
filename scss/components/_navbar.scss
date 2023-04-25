@@ -1,0 +1,45 @@
+#logo{
+    font-family: 'Comforter', cursive;
+    color: rgba(255, 0, 0, 0.7);
+}
+
+h1,h2,h3,h4,h5,h6, p{
+    color: white;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+a:hover{
+    color: rgba(255, 0, 0, 0.5);
+}
+
+img{
+    width:100%;
+}
+
+
+.navbar .nav-link{
+    font-weight: 700px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar{
+    background: linear-gradient(rgba(7, 28, 68, 1),rgba(7, 28, 68, 1));
+
+}
+
+.navbar .nav-link:hover{
+    color: rgba(255, 0, 0, 0.7);
+
+}
+
+.navbar .nav-link.active {
+
+  color: rgba(255, 0, 0, 0.7);
+
+}

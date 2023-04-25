@@ -1,0 +1,54 @@
+@media (min-width: 992px){
+
+    body{
+        overflow-x: hidden;
+        background:url(../multimedia/fondo.png);
+        background-size:cover;
+    }
+
+    .navbar{
+        min-height: 100vh;
+        width: $sidbar-width;
+        background: linear-gradient(rgba(7, 28, 68, 0.4),rgba(7, 28, 68, 0.4));
+
+    }
+
+    #person{
+        height: 250px;
+        width: 180px;
+    }
+
+    .navbar-brand img{
+        border: 5px solid rgba(255, 0, 0, 0.1);
+        position: center;
+
+    }
+
+    /* CONTENT */
+
+    #contentindex{
+        padding-left: 350px;
+    }
+
+    #contentservices{
+        padding-left: 350px;
+    }
+
+    #contenttrabajos{
+        padding-left: 350px;
+    }
+
+    #contentsobremi{
+        padding-left: 350px;
+    }
+
+    #contentcontact{
+        padding-left: 350px;
+    }
+
+    footer {
+        position: relative;
+        left: 125px;
+    }
+
+}
