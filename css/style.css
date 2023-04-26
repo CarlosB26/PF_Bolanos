@@ -3,7 +3,7 @@
 body {
   color: rgb(238, 238, 238);
   font-family: "Bai Jamjuree", bond, sans-serif;
-  background: url(../multimedia/fondo.png);
+  background-image: url(../multimedia/fondo.webp);
   background-size: cover;
   overflow-x: hidden;
 }
