@@ -3,7 +3,7 @@ body{
     font-family: $fontBase, sans-serif;
     background:url(../multimedia/fondo.png);
     background-size: cover;
-
+    overflow-x: hidden;
 }
 
 .full-heigth{
