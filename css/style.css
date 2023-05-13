@@ -3,7 +3,7 @@
 body {
   color: rgb(238, 238, 238);
   font-family: "Bai Jamjuree", bond, sans-serif;
-  background-image: url(../multimedia/fondo.webp);
+  background-image: url(../multimedia/fondo.png);
   background-size: cover;
   overflow-x: hidden;
 }
@@ -73,6 +73,7 @@ footer {
 }
 
 .text-brand {
+  display: inline-block;
   color: rgb(255, 0, 0);
 }
 
@@ -155,7 +156,7 @@ h6 {
 }
 
 .bg-base {
-  background-color: rgba(7, 28, 68, 0.4);
+  background-color: rgba(7, 28, 68, 0.801);
 }
 
 .shadow-effect {
@@ -208,7 +209,7 @@ h6 {
   .navbar {
     min-height: 100vh;
     width: 300px;
-    background: linear-gradient(rgba(7, 28, 68, 0.4), rgba(7, 28, 68, 0.4));
+    background: linear-gradient(rgba(7, 28, 68, 0.801), rgba(7, 28, 68, 0.801));
   }
   #person {
     height: 250px;
